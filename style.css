@@ -1,0 +1,152 @@
+/**{
+	padding: 0;
+	margin: 0;
+
+box-sizing: border-box;}*/
+
+html{
+
+}
+
+
+
+
+
+
+body{
+
+background-image: url(Image/sports.jpg);
+background-size:cover;
+height: 100%;
+background-repeat: no-repeat;
+background-position: center;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: bolder;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.title{
+font-family: fantasy;
+font: 80px monospace;
+font-color: antiquewhite;
+border-radius: ;
+background-color: transparent;
+font-size: 1568 x 495;
+border-style: double;
+}
+
+.update {
+	font-family: monospace;
+	font-color: antiquewhite;
+}
+.profilepic{
+	width: 250px;
+	
+	border-radius: 100px;	
+	}
+
+
+.icons{
+display: inline-flex;
+font-size: 30px;
+}
+
+.firstbox{
+	size: 500px;
+	margin:0 auto;
+	text-align: center;
+	}
+
+.boxes{
+text-align: center;
+margin: 20px 0;
+background: rgba(230, 230, 230, 0.8);
+border-radius: 80px;
+justify-content:space-evenly;
+align-content: center;
+padding: 5px;
+width: auto;
+color: black;
+}
+
+.squash{
+	text-align: center;
+	margin: 20px 0;
+	
+}
+
+
+.squash img {
+	width: 100%;
+}
+
+.social{
+text-align: center;
+color: black;
+font-size: 30px;
+font-family: monospace;
+border-radius: 100px ;
+background-color: transparent;
+border-style: double;
+margin: 0px 200px;
+padding: 10px;
+
+}
+
+ul{display:inline-flex;
+	padding: 0px;
+}
+
+.website{
+	text-decoration: none;
+	color: black;
+	background-color: cadetblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.website:hover{
+	color: darkblue;
+	background-color: antiquewhite;
+
+}
+
+li{list-style: none;
+
+}
+
+i{color: black;
+	font-size: 30px;
+	margin: 15px ;
+}
+
+p{
+text-align: center}
+
+h1{	color: black;
+font-size: 30px;
+font-display: ;
+text-align: center;}
+
+h2{text-align: center;}
+
+h3{text-align: center;
+color: darkblue;
+margin: 30px auto}
+
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+
+  }
+
+
+
